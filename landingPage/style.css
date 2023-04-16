@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+button{
+    padding: 16px;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+}
+
+.page_1{
+    display: flex !important;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+.content{
+    flex: 1;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+a {
+    font: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0 16px;
+    margin: 16px;
+}
+
+.header{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul{
+    list-style: none;
+    display: flex !important;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    align-items: center;
+    padding-right: 150px;
+    font-size: medium;
+}
+
+.header_2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+}
+
+.container_1{
+    display: flex !important;
+    flex-direction: column;
+    padding: 16px;
+    margin: auto;
+}
+
+.text{
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    resize: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 600px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.page_2{
+    display: flex !important;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.header_for_cubes{
+    align-items: center;
+    display: flex !important;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+.images_with_text{
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    flex-direction: row;
+}
+
+.img_with_text{
+    width: auto;
+    padding: 16px;
+}
+
+.img_with_text img {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    display: flex !important;
+    justify-content: center;
+    width: 200px;
+}
+
+.page_3{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color:  #D3D3D3;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 400px;
+}
+
+.author {
+    display: flex !important;
+    width: 500px;
+    justify-content: end;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.page_4 {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.content_4{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;    
+    font-family: Roboto, sans-serif;
+}
+
+.button_for_block4{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.header_of_block4{
+    display: flex !important;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+}
+
+.text_for_block4{
+    display: flex !important;
+    justify-content: flex-start;
+    width: 500px;
+}
+
+.footer {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #1F2937;
+}
+
+.footer_text{    
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
